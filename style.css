@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #BEB9B7;
+    font-family: 'Racing Sans One', cursive;
+}
+.container{
+   max-width: 1000px;
+   background-color: #6a83b9;
+   margin:0 auto;
+   padding:20px;
+}
+.profile-image{
+    width:100px;
+    height:120px;
+    border:3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+.header-bio {
+   float:left;
+   padding:30px;
+ 
+
+  }
+  .header-bio h1,h3{
+      color:#46282d9f;
+      font-weight: bold;
+      font-style: italic;
+  }
+
+
+  .header-contact{
+      float:right;
+      font-size:20px;
+  }
+  .header-contact a{
+        text-decoration: none;
+        color:rgb(41, 77, 92)
+}
+.header-contact a:hover{
+       text-decoration: underline;
+       color:rgb(159, 179, 179);
+       cursor: pointer;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:3px solid black;
+    width:100%;
+    margin:5px;
+    border-bottom:none;
+}
+
+/*---personal section start---*/
+#personal-section{
+
+}
+.content{
+  margin-bottom:30px;
+}
+.left-div {
+    width:30%;
+    float:left;
+}
+.left-div h3{
+    font-size: 20px;
+    color:rgb(112, 82, 141)
+}
+.right-div{
+    width:70%;
+    float:left;
+
+}
+.right-div h1,h2{
+    color:rgb(158, 64, 135);
+    color:rgba(167, 35, 145, 0.418)
+}
+.right-div p{
+    font-size: 20px;
+    
+}
+.common-hr{
+    border:1px solod black;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;
+
+}
+/*---Education template start--*/
+.left-div h3{
+    color:rgb(106, 72, 134)
+}
+.edu-template-left{
+   float:left;
+   width:45%;
+  
+    
+}
+
+.edu-template-right{
+    float:right;
+    width:45%;
+    
+    
+}
+/*---bottom-container start--*/
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding:10px;
+    border-radius:10px;
+}
+.bottom-container a{
+   color:white;
+   text-decoration: none;
+   margin:20px;
+}
+.bottom-container a:hover{
+    text-decoration: underline;
+    color:#FFA07A;
+}
+.bottom-container p{
+    color:white;
+    margin-top:20px;
+    font-size:30px;
+    font-family: "Times New Roman", Times, serif;
